@@ -80,17 +80,36 @@ inquirer
 const generateReadme = ({ title, description, installation, usage, contributing, test, license, github, email }) =>
 `
 # ${title}
-## Description:
+
+## Table of Contents
+- [ Description ](#Description)
+- [ Installation ](#Installation)
+- [ Usage ](#Usage)
+- [ Contributing ](#Contributing)
+- [ Tests ](#Tests)
+- [ License ](#License)
+- [ Questions ](#Questions)
+
+
+## Description
 ${description}
-##Installation:
+
+## Installation
 ${installation}
-##Usage:
+
+## Usage
 ${usage}
-##Contributing:
+
+## Contributing
 ${contributing}
-##Tests:
+
+## Tests
 ${test}
-##Questions:
+
+## License
+The license of this application is covered under ${license}.
+
+## Questions
 ${github}
 ${email}
 `;
