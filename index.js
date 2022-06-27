@@ -39,19 +39,14 @@ inquirer
             type: "list",
             message: "Choose a license from the following list:",
             choices: [
-                "Apache License 2.0",
-                "GNU General Public License v3.0",
-                "MIT License",
-                "BSD T-Clause 'Simplified' License",
-                "BSD 3-Clause 'New' or 'Revised' License",
-                "Creative Commons Zero v1.0 Universal",
-                "Eclipse Public License 2.0",
-                "GNU Affero General Public License v2.1",
-                "GNU General Public License v2.0",
-                "GNU Lesser General Public License v2.1",
-                "GNU Lesser General Public License v3.0",
-                "Mozilla Public License 2.0",
-                "The Unilicense",
+                "Apache",
+                "GNU",
+                "MIT",
+                "BSD",
+                "ISC",
+                "EPL",
+                "MPL",
+                "GPL",
             ],
             name: "license",
         },
@@ -59,6 +54,11 @@ inquirer
             type: "input",
             message: "What is your Github username?",
             name: "github",
+        },
+        {
+            type: "input",
+            message: "What is your Github repository name?",
+            name: "repository",
         },
         {
             type: "input",
@@ -77,9 +77,12 @@ inquirer
 
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) { }
-const generateReadme = ({ title, description, installation, usage, contributing, test, license, github, email }) =>
+const generateReadme = ({ title, description, installation, usage, contributing, test, license, github, repository, email }) =>
 `
 # ${title}
+
+![badge](https://img.shields.io/badge/license-${license}-red)
+![badge](https://img.shields.io/github/commit-activity/m/${github}/${repository})
 
 ## Table of Contents
 - [ Description ](#Description)
@@ -106,6 +109,9 @@ ${contributing}
 ## Tests
 ${test}
 
+## Repository
+[Link](https://github.com/${github}/${repository})
+
 ## License
 The license of this application is covered under ${license}.
 
@@ -113,9 +119,3 @@ The license of this application is covered under ${license}.
 ${github}
 ${email}
 `;
-
-//     // TODO: Create a function to initialize app
-//     function init() { }
-
-// // Function call to initialize app
-// init();
