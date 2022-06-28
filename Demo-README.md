@@ -28,18 +28,18 @@ Example Contribution Guidelines
 Example Test Instructions
 
 ## Repository
-[Repository Link](https://github.com/ExampleUsername/Example-Repo)
+[Repository Link](https://github.com/villettec/M9C-Readme_Generator)
 
-![badge](https://img.shields.io/github/commit-activity/m/ExampleUsername/Example-Repo)
+![badge](https://img.shields.io/github/commit-activity/m/villettec/M9C-Readme_Generator)
 
 ## License
 The license of this application is covered under Apache.
 
 ## Questions
-Github username: ExampleUsername
+Github username: villettec
 
-[Gihub Profile Link](https://github.com/ExampleUsername)
+[Gihub Profile Link](https://github.com/villettec)
 
 If you have further questions, please email me with your inquiries at the address below.
 
-Email Address: Example@email.com
+Email Address: example@example.com
