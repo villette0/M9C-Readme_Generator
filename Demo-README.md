@@ -3,6 +3,9 @@
 
 ![badge](https://img.shields.io/badge/license-Apache-blue)
 
+## Description
+Example Description
+
 ## Table of Contents
 - [ Description ](#Description)
 - [ Installation ](#Installation)
@@ -12,34 +15,31 @@
 - [ License ](#License)
 - [ Questions ](#Questions)
 
-## Description
-Example Description
-
 ## Installation
-Example instructions
+Example Installation Instructions
 
 ## Usage
-Example usage information
+Example Usage Information
 
 ## Contributing
-Example contributing guidelines
+Example Contribution Guidelines
 
 ## Tests
-examples test instructions
+Example Test Instructions
 
 ## Repository
-[Repository Link](https://github.com/villettec/M9C-Readme_Generator)
+[Repository Link](https://github.com/ExampleUsername/Example-Repo)
 
-![badge](https://img.shields.io/github/commit-activity/m/villettec/M9C-Readme_Generator)
+![badge](https://img.shields.io/github/commit-activity/m/ExampleUsername/Example-Repo)
 
 ## License
 The license of this application is covered under Apache.
 
 ## Questions
-Github username: villettec
+Github username: ExampleUsername
 
-[Gihub Profile Link](https://github.com/villettec)
+[Gihub Profile Link](https://github.com/ExampleUsername)
 
 If you have further questions, please email me with your inquiries at the address below.
 
-Email Address: villette@live.com
+Email Address: Example@email.com

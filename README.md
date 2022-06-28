@@ -1,10 +1,10 @@
 # README Generator
 
 ## Application Description
-This is a node application which generates a README file from user input.
+This is a node application which generates a README file from user input. In the terminal, the user is prompted with questions regarding their README such as the title, description, installation instructions, usage information, contribution guidelines, test instructions, license, Github username and repository, and email address. The license badge is displayed near the top of the README, as well as a badge regarding the number of commits to the repository under the repository section.
 
 ## Challenge Description
-The challenge required using node.js to create a professional readme generator.
+The challenge required using node.js to create a professional readme generator. The node modules that were utilized were inquirer and file system (fs). From the inquirer module, there is a function which prompts the user for input questions as well as one list question for the license selection. From those answers, a function is written to write the README.MD file using the node module fs. In the generateReadme function which writes this file, the object is deconstructed and uses string interpolation to write them into specific places in the README document. The console logs that it was a 'success' to the user.
 
 ## User Story
 
@@ -36,8 +36,9 @@ THEN I am taken to the corresponding section of the README
 
 ## Tasks Completed
 The JavaScript document includes:
-* variables, query selectors, objects, event listeners, and functions
-* Questions array 
+* Functions, Objects, 'const' variables
+* Node Modules such as Inquirer and FS (file system)
+* String Interpolation
 * Comments
 
 ## Languages
@@ -48,8 +49,10 @@ The JavaScript document includes:
 
 * [Repository](https://github.com/villettec/M9C-Readme_Generator)
 
-## Screenshot
-![image](./assets/images/readme-screenshot.png)
+## Screenshots
+![image](./readme-screenshot.png)
+
+![image](./readme-screenshot-2.png)
 
 ## Credit
 Villette Comfort

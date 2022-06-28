@@ -88,6 +88,9 @@ const generateReadme = ({ title, description, installation, usage, contributing,
 
 ![badge](https://img.shields.io/badge/license-${license}-blue)
 
+## Description
+${description}
+
 ## Table of Contents
 - [ Description ](#Description)
 - [ Installation ](#Installation)
@@ -96,9 +99,6 @@ const generateReadme = ({ title, description, installation, usage, contributing,
 - [ Tests ](#Tests)
 - [ License ](#License)
 - [ Questions ](#Questions)
-
-## Description
-${description}
 
 ## Installation
 ${installation}
