@@ -29,7 +29,7 @@ inquirer
         },
         {
             type: "input",
-            message: "What are your contributing guidelines?",
+            message: "What are your contribution guidelines?",
             name: "contributing",
         },
         {
@@ -87,7 +87,6 @@ const generateReadme = ({ title, description, installation, usage, contributing,
 # ${title}
 
 ![badge](https://img.shields.io/badge/license-${license}-blue)
-![badge](https://img.shields.io/github/commit-activity/m/${github}/${repository})
 
 ## Table of Contents
 - [ Description ](#Description)
@@ -114,7 +113,9 @@ ${contributing}
 ${test}
 
 ## Repository
-[Link](https://github.com/${github}/${repository})
+[Repository Link](https://github.com/${github}/${repository})
+
+![badge](https://img.shields.io/github/commit-activity/m/${github}/${repository})
 
 ## License
 The license of this application is covered under ${license}.
@@ -125,5 +126,6 @@ Github username: ${github}
 [Gihub Profile Link](https://github.com/${github})
 
 If you have further questions, please email me with your inquiries at the address below.
+
 Email Address: ${email}
 `;
