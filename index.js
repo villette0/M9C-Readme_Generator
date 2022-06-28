@@ -1,8 +1,10 @@
 // TODO: Include packages needed for this application
+//The node modules of inquirer and file system are used in this application.
 const inquirer = require("inquirer");
 const fs = require("fs");
 
 // TODO: Create an array of questions for user input
+//Inquirer prompts the user to input the following inpu fields.
 inquirer
     .prompt([
         {
@@ -35,6 +37,7 @@ inquirer
             message: "What are your test instructions?",
             name: "test",
         },
+        //Instead of input, this one is a list that the user selects with down arrow keys and pressing enter.
         {
             type: "list",
             message: "Choose a license from the following list:",
@@ -66,9 +69,11 @@ inquirer
             name: "email",
         }
     ])
+    //Then the answers are essentially passed as a parameter and then the object is deconstructed in the generate readme function.
     .then((answers) => {
         const readmePageContent = generateReadme(answers);
 
+        //Creates/writes a new file called demo-readme and console logs that it was a success.
         fs.writeFile('Demo-README.md', readmePageContent, (err) =>
             err ? console.log(err) : console.log('Successfully created readme!')
         );
@@ -76,12 +81,12 @@ inquirer
 
 
 // TODO: Create a function to write README file
-//function writeToFile(fileName, data) { }
+//This function deconstructs the object's keys above and writes them into the gnerated readme file.
 const generateReadme = ({ title, description, installation, usage, contributing, test, license, github, repository, email }) =>
 `
 # ${title}
 
-![badge](https://img.shields.io/badge/license-${license}-red)
+![badge](https://img.shields.io/badge/license-${license}-blue)
 ![badge](https://img.shields.io/github/commit-activity/m/${github}/${repository})
 
 ## Table of Contents
@@ -92,7 +97,6 @@ const generateReadme = ({ title, description, installation, usage, contributing,
 - [ Tests ](#Tests)
 - [ License ](#License)
 - [ Questions ](#Questions)
-
 
 ## Description
 ${description}
@@ -116,6 +120,10 @@ ${test}
 The license of this application is covered under ${license}.
 
 ## Questions
-${github}
-${email}
+Github username: ${github}
+
+[Gihub Profile Link](https://github.com/${github})
+
+If you have further questions, please email me with your inquiries at the address below.
+Email Address: ${email}
 `;

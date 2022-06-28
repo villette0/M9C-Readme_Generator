@@ -1,8 +1,8 @@
 
 # bla
 
-![badge](https://img.shields.io/badge/license-Apache-red)
-![badge](https://img.shields.io/github/commit-activity/m/villettex/M9C-Readme_Generator)
+![badge](https://img.shields.io/badge/license-MIT-blue)
+![badge](https://img.shields.io/github/commit-activity/m/villettec/M9C-Readme_Generator)
 
 ## Table of Contents
 - [ Description ](#Description)
@@ -30,11 +30,11 @@ bla
 bla
 
 ## Repository
-[Link](https://github.com/villettex/M9C-Readme_Generator)
+[Link](https://github.com/villettec/M9C-Readme_Generator)
 
 ## License
-The license of this application is covered under Apache.
+The license of this application is covered under MIT.
 
 ## Questions
-villettex
+villettec
 bla
