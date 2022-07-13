@@ -45,7 +45,7 @@ The JavaScript document includes:
 - JavaScript
 
 ## Links
-* [Screen Recording of Application](https://drive.google.com/file/d/1xEc5dGCMxg9jQJAEgl2gr7tFUggt9csY/view)
+* [Application Walkthrough Video](https://drive.google.com/file/d/1xEc5dGCMxg9jQJAEgl2gr7tFUggt9csY/view)
 
 * [Repository](https://github.com/villettec/M9C-Readme_Generator)
 
