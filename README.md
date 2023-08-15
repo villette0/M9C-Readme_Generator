@@ -47,14 +47,9 @@ The JavaScript document includes:
 ## Links
 * [Application Walkthrough Video](https://drive.google.com/file/d/1xEc5dGCMxg9jQJAEgl2gr7tFUggt9csY/view)
 
-* [Repository](https://github.com/villettec/M9C-Readme_Generator)
+* [Repository](https://github.com/villette0/M9C-Readme_Generator)
 
 ## Screenshots
 ![image](./readme-screenshot.png)
 
 ![image](./readme-screenshot-2.png)
-
-## Credit
-Villette Comfort
-
-villette@live.com
